@@ -1,0 +1,75 @@
+html {
+    background: url(https://wallpaperaccess.com/full/685208.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#line {
+    width: 200px;
+    height: 1px;
+    border-radius: 0.05px;
+    background: grey;
+}
+
+#image1 {
+    filter: grayscale(60%);
+    padding-top: -10px;
+    border-radius: 20px 20px 0 0;
+    margin-left: 0px;
+}
+
+#card {
+    width: 200px;
+    text-align: center;
+    background: rgb(252, 252, 252);
+    border-radius: 21px 21px 10px 10px;
+    box-shadow: 0.01px 0.01px 15px #636363;
+    height: 335px;
+}
+
+#desc {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 150;
+    color: rgb(5, 5, 5);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: grey;
+    border-radius: 5px;
+    outlinE: none;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+#card:hover {
+    margin-top: -10px;
+    transition: 0.1s
+}
